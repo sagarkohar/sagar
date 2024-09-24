@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="jquery.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="demo_all.css">
+
+    <script>
+        
+        function first() {
+            document.getElementById("img").src = "m3 (2).webp";
+        }
+        function first1() {
+            document.getElementById("img").src = "bh2.png";
+        }
+        function second() {
+            document.getElementById("img").src = "bh3.png";
+        }
+        function third() {
+            document.getElementById("img").src = "gh1.png";
+        }
+        // Product details
+        function toggleText() {
+            let points =
+                document.getElementById("points");
+
+            let showMoreText =
+                document.getElementById("moreText");
+
+            let buttonText =
+                document.getElementById("textButton");
+            if (points.style.display === "none") {
+
+                showMoreText.style.display = "none";
+
+                points.style.display = "inline";
+
+                buttonText.innerHTML = "Product Details";
+            }
+
+            else {
+                showMoreText.style.display = "inline";
+
+                points.style.display = "none";
+
+                buttonText.innerHTML = " Less Details";
+            }
+        }
+    </script>
+    </script>
+
+</head>
+
+<body>
+    <div class="nav1">
+        Sale is on! 25% off sitewide using SARPND at checkout
+    </div>
+
+
+
+    <div class="nav2">
+        <div class="nav" style="margin-left: 20%;">
+            <h1>T-SHIRT~SHOP</h1>
+        </div>
+        <div class="nav" style="width: 10%;font-size: small;margin-left: 10%;"><a href="home.html">HOME</a></div>
+        <div class="nav" style="width: 10%; letter-spacing: 2px;font-size: x-large;"><a
+                href="welcome to new fashion.html">NEW</a></div>
+
+        <div class="nav" style="width: 10%;font-size:small; "><a href="women.html">WOMEN</a></div>
+        <div class="nav" style="width: 10%; font-size:small;"><a href="men.html">MEN</a></div>
+        <div class="nav" style="width: 10%;font-size: small; "><a href="login.html">LOGIN &nbsp; &nbsp; <img
+                    src="login.svg" alt="" width="10%"></a></div>
+
+    </div>
+
+    <h1 style="margin-top:2.5%;">hi</h1><br><br>
+
+    <br>
+
+
+    <!-- m1-cloth -->
+    <div id="cloth">
+
+        <div class="first1" id="first1">
+            <div id="first11">
+                <img id="img" src="m3 (2).webp">
+            </div>
+            <div id="first12">
+                <div class="orther">
+                    <img src="bh2.png" alt="" onmousemove="first()" onmouseout="first1()">
+                </div>
+                <div class="orther">
+                    <img src="bh3.png" alt="" onmouseover="second()" onmouseout="first1()">
+                </div>
+                <div class="orther">
+                    <img src="gh1.png" alt="" onmouseover="third()" onmouseout="first1()">
+                </div>
+            </div>
+        </div>
+        <div class="first1" id="first2">
+            <h3>
+                Juneberry
+                <br>
+                Oversie Round Neek Cotton
+
+            </h3>
+            <p>₹419</p>
+            <p>Size</p>
+            <select>
+                <option value="">Large</option>
+                <option value="" selected>Medium</option>
+                <option value="">Small</option>
+            </select>
+            <br>
+            <p>Quantity<br>
+                <input type="number" value="1" style="width:10%;margin-top:15px;margin-left:-1px">
+                <br>
+                <input id="add_to_cart" type="submit" value="Add to cart">
+                <img id="heart" src="heart.png" alt="" onclick="heart_empty()" ondblclick="heart_full()">
+                <br>
+                <input id="buy" type="submit" value="Buy">
+                <!-- product information -->
+                <br>
+                <button onclick="toggleText()" id="textButton">
+                    Product Details
+                </button>
+            <p>
+
+                <br>
+                <span id="points"></span>
+                <span id="moreText"> Type:Round tshirt <br>
+                    Sleeve:Full Sleeve <br>
+                    Fit:Regular <br>
+                    Fabric:Cotton Blend <br>
+                    Pack of:1 <br>
+                    Style Code:All RBCPON SKY-One <br>
+                    Neck Type:Round Neck <br>
+                    Ideal For:Women <br>
+                    Size:S/M/L <br>
+                    Pattern:Printed <br>
+                    Suitable For:Western Wear <br>
+                    Fabric Care:Regular Machine Wash <br>
+                    Net Quantity:1
+                </span>
+                <br>
+            </p>
+        </div>
+    </div>
+    <h1 style="margin-left: 10%;">Releated Product</h1>
+    <div id="last">
+        <div class="last1">
+            <a href="t-shirt2.html">
+                <img src="m1 (2).webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="t-shirt3.html">
+                <img src="m2 (2).webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="t-shirt4.html">
+                <img src="m3 (2).webp" alt="">
+            </a>
+        </div>
+
+
+    </div>
+
+    <br><br>
+    <div style="display: flex; margin-bottom: -7px;">
+
+        <div id="footer1">
+            <span style="font-size: x-large; font-weight: bolder;">T-SHOP</span><br>
+            <a href="https://mail.google.com"> tshop18@gmail.com</a><br>
+            Tel: 981-193-4689
+
+        </div>
+        <div id="footer2">
+            <a href="https://www.youtube.com/"> <img src="youtube.webp" alt=""></a>
+            <a href="https://www.facebook.com/"> <img src="f.webp" alt=""></a>
+            <a href="https://www.tiktok.com/"> <img src="tiktok.webp" alt=""></a>
+            <a href="https://www.instagram.com/"> <img src="insta.webp" alt=""></a>
+            <span style="margin-left: 15%;">BUY THE LATEST ITEM TO MAKE YOUR LOOK PERFECT</span>
+
+            <br>
+            <h3>View our site and product<span style="font-weight: lighter; padding-left:2%;"> powered and designed by
+                    Sagar</span> </h3>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

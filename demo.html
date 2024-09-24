@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo_all.css">
+    <link rel="stylesheet" href="all_main.css">
+
+    <title>Document</title>
+</head>
+<script> function heart_empty()
+    {
+        document.getElementById("heart").src = "heart_full.webp";
+    }
+    function heart_full()
+    {
+        document.getElementById("heart").src = "heart.png";
+    }
+    function first()
+    {
+        document.getElementById("img").src = "w1_1.webp";
+    }
+    function first1()
+    {
+        document.getElementById("img").src = "w1_2.webp";
+    }
+    function second()
+    {
+        document.getElementById("img").src = "w1_3.webp";
+    }
+    function third()
+    {
+        document.getElementById("img").src = "w1_2.webp";
+    }
+    // Product details
+    function toggleText() {
+            let points =
+                document.getElementById("points");
+ 
+            let showMoreText =
+                document.getElementById("moreText");
+ 
+            let buttonText =
+                document.getElementById("textButton");
+            if (points.style.display === "none") {
+ 
+                showMoreText.style.display = "none";
+
+                points.style.display = "inline";
+ 
+                buttonText.innerHTML = "Product Details";
+            }
+ 
+            else {
+                showMoreText.style.display = "inline";
+ 
+                points.style.display = "none";
+ 
+                buttonText.innerHTML = " Less Details";
+            }
+        }
+</script>
+<body>
+   
+    <!-- m1-cloth -->
+    <div id="cloth">
+        
+        <div class="first1" id="first1">
+            <div id="first11">
+                <img id="img" src="w1_1.webp" alt="">
+            </div>
+            <div id="first12">
+                <div class="orther">
+                    <img src="w1_2.webp" alt=""onmousemove="first()" onmouseout="first1()" >
+                </div>
+                <div class="orther">
+                    <img src="w1_3.webp" alt="" onmouseover="second()" onmouseout="first1()">
+                </div>
+                <div class="orther">
+                    <img src="w1_1.webp" alt="" onmouseover="third()" onmouseout="first1()">
+                </div>
+            </div>
+        </div>
+        <div class="first1" id="first2">
+            <h3>
+                Juneberry
+                <br>
+                Oversie Round Neek Cotton
+
+            </h3>
+            <p>₹419</p>
+            <p>Size</p>
+            <select>
+                <option value="" >Large</option>
+                <option value="" selected>Medium</option>
+                <option value="">Small</option>
+            </select>
+            <br>
+            <p>Quantity</p>
+            <input type="number" value="1">
+            <br>
+            <input id="add_to_cart" type="submit" value="Add to cart">
+                <img id="heart" src="heart.png" alt="" onclick="heart_empty()" ondblclick="heart_full()">
+                <br>
+                <input id="buy" type="submit"value="Buy">
+              <!-- product information -->
+              <br>
+              <button onclick="toggleText()" id="textButton">
+                Product Details
+           </button>
+            <p>
+               
+                <br>
+                <span id="points"></span>
+                <span id="moreText"> Type:Round tshirt <br>
+                    Sleeve:Full Sleeve <br>
+                    Fit:Regular <br>
+                    Fabric:Cotton Blend <br>
+                    Pack of:1 <br>
+                    Style Code:All RBCPON SKY-One <br>
+                    Neck Type:Round Neck <br>
+                    Ideal For:Women <br>
+                    Size:S/M/L <br>
+                    Pattern:Printed <br>
+                    Suitable For:Western Wear <br>
+                    Fabric Care:Regular Machine Wash <br>
+                    Net Quantity:1
+                </span>
+                <br>
+            </p>
+        </div>
+    </div>
+    <h1 style="text-align: center;">Releated Product</h1>
+    <div id="last">
+        <div class="last1">
+            <a href="h23_c.html">
+                <img src="home_image/h6.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="w4.html">
+                <img src="home_image/h7.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="h32_c.html">
+                <img src="home_image/h8.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="w7.html">
+                <img src="home_image/h9.webp" alt="">
+            </a>
+        </div>
+       
+    </div>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+
+
+
+
+    <script >
+        $(document).ready(function(){
+        $("#off").click(function(){
+        $("#mid_div ,#mid_div img,#shopnow,h5").slideToggle("slow");
+        });
+        });
+
+
+
+        function newpic()
+        {
+            document.getElementById("img").src= "db4.png";
+        }
+
+        function oldpic()
+        {
+            document.getElementById("img").src= "db5.png";
+        }
+
+
+
+        function go()
+        {
+            
+            document.getElementById("h5").innerHTML="Go for Shopping";
+        }
+
+        function not_go()
+        {
+            document.getElementById("h5").innerHTML="";
+        }
+
+    </script>
+
+    <style>
+
+    
+
+#second {
+    background-color: black;
+    height: 350px;
+    color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+
+ }
+
+ #second h1 {
+    padding-top:2% ;
+ }
+
+ #second a {
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    margin: 30px;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-size: x-large;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.3s;
+    background: linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 200% 100%;
+    border: 4px solid white;
+
+    }
+    #second a:hover {
+    background-position: 90% 0;
+    color: black;
+ }
+
+/* Set the animation duration */
+
+.middle_div{
+    width: 100%;
+    height: 600px;
+    
+
+}
+
+.middle_img{
+    width: 50%;
+    height: 100%;
+    background-image: url("newpic7.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: azure;
+}
+.home {
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                background: url(image.jpg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                filter: brightness(40%);
+                position: relative;
+                opacity: 80%;
+                z-index: -1;
+            }
+
+             .content {
+
+                max-width: 70%;
+              margin-top: -30%;
+              margin-bottom: 20%;
+              margin-left: 30%;
+
+            }
+
+            
+
+            .content h1 {
+                font-size: 40px;
+                color: white;
+                line-height: 150%;
+                /* font-family: 'Raleway','sans-serif'; */
+                font-weight: 550;
+                font-family: 'pop';
+
+               
+                
+            }
+
+ 
+    </style>
+</head>
+<body>
+    <div class="nav1">
+          Sale is on! 25% off sitewide using SARPND at checkout
+    </div>
+
+
+
+        <div class="nav2">
+          <div class="nav" style="margin-left: 20%;"><h1>T-SHIRT~SHOP</h1></div>
+            <div class="nav"  style="width: 10%;font-size: x-large;margin-left: 10%;"><a href="home.html">HOME</a></div>
+            <div class="nav"  style="width: 10%; letter-spacing: 2px;font-size: small;"><a href="welcome to new fashion.html">NEW</a></div>
+
+            <div class="nav"  style="width: 10%;font-size:small; "><a href="women.html">WOMEN</a></div>
+            <div class="nav"  style="width: 10%; font-size:small;"><a href="men.html">MEN</a></div>
+            <div class="nav"  style="width: 10%;font-size: small; "><a href="login.html">LOGIN &nbsp; &nbsp; <img src="login.svg" alt="" width="10%"></a></div>
+
+        </div>
+
+        <h4 style="margin-top: 3%;"></h4><br>
+
+
+        <section class="home" id="home">
+            
+        </section>
+        <div class="content">
+                
+            <h1>Clothes aren't going to change the world <br> The women who wear them will.
+                <br> Life is too short to wear boring clothes</h1>
+        <h3 id="shopnow" onmouseover="go()" onmouseout="not_go()" ><a href="welcome to new fashion.html"  >SHOP NOW</a></h3> <h5 id="h5" style=" margin-left: 62%;margin-top: -4%;color: #fff; text-shadow: 0 0 2px rgb(7, 8, 7); width: max-content;"></h5>
+                
+        </div>
+
+        <h1 align="center" style="text-shadow: 0 0 7px rgb(17, 17, 16);" class="animate__animated animate__bounceInUp"><u>VARITY IN FASHION IS OUR PASSION</u></h1>
+        
+        <div class="nav4">
+            <div class="link"><a href="women.html"><img src="gh1.png" alt=""></a></div>
+            <div class="link"><a href="welcome to new fashion.html"><img src="image.jpg" alt=""></a></div>
+            <div class="link"><a href="men.html"><img src="bh3.png" alt=""></a></div>
+
+
+        </div><br>
+        <h1 align="center" style="text-shadow: 0 0 7px rgb(188, 254, 5);" class="animate__animated animate__bounceInRight">TOP AND TRENDING COLLECTIONS</h1>
+
+
+       
+        
+          
+          
+
+        <div class="product">
+            <div id="product"><a href="t-shirt4.html"><img src="bh1.png" alt="">Japanese and Foreign <br>Shop now <br>Price: <strike style="color: red;">$92.64</strike> 76% off<br> $44.43only<</a></div>
+            <div id="product"><a href="t-shirt2.html"><img src="bh2.png" alt="" ><br>Latest and Favourable <br>Shop now <br>Price: <strike style="color: red;">$50.34</strike> 6% off<br> $46.43only</a></div>
+            <div id="product"><a href="t-shirt4.html"><img src="m3 (2).webp" alt=""><br>Recent New and Designed <br>Shop now <br>Price:<strike style="color: red;">$89.39</strike> 9% off<br> $76.43only</a></div>
+            <br>
+        </div>
+
+        <br><br><br>
+        <div class="product">
+            <div id="product"><a href="t-shirt5.html"><img src="db3.png" alt=""><br>Latest and Favourable <br>Shop now <br>Price: <strike style="color: red;">$50.34</strike> 6% off<br> $46.43only</a></div>
+            <div id="product"><a href="t-shirt4.html"><img src="bh3.png" alt=""><br>Japanese and Foreign <br>Shop now <br>Price: <strike style="color: red;">$92.64</strike> 76% off<br> $44.43only<</a></div>
+            <div id="product"><a href="t-shirt6.html"><img src="db1.png" alt=""><br>Recent New and Designed <br>Shop now <br>Price:<strike style="color: red;">$89.39</strike> 9% off<br> $76.43only</a></div>
+            
+        </div>
+
+         <br><br>
+
+         <br><br>
+         <span id="off" style="margin-left: 12%;"> COMBO!</span> 
+
+        <div class="mid_div">
+            
+            <div id="mid_div" style="width: 50%;padding-top: 10%; text-align: center; font-size: larger;font-weight: 600;"><br><br> <span style="color: white;font-size: 30px;font-weight: bolder; border-bottom: 5px dashed black;"> Hurry Up </span><br><br>
+                <span style="font-size: xx-large; color: rgb(241, 242, 246);">25% OFF</span>
+                <br><br>
+               <span style="color: white;padding: 5px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> 25% off sitewide using TEES25 at checkout</span></div>
+            <div id="mid_div" style="border: none; padding-top: 2%;"><img id="img" src="db5.png" alt="" style="width: 50%;" onmouseover="newpic()" onmouseout="oldpic()"></div>
+        </div>
+    <br><br>
+
+    
+   
+
+    <div id="second">
+        <h1> BE FASHIONABLE</h1>
+        <h3>ENJOY THE BEST WEARINGS</h3><br><br>
+        <a href="welcome to new fashion.html">New</a>
+        <a href="women.html">Shop Women</a>
+        <a  class="btn" id="b2"  href="men.html">Shop Men</a>
+        <a  class="btn" id="b2" href="login.html">Login</a>
+    </div><br>
+    <div style="display: flex; margin-bottom: -7px;">
+
+        <div id="footer1">
+           <span style="font-size: x-large; font-weight: bolder;">T-SHOP</span><br>
+          <a href="https://mail.google.com"> tshop18@gmail.com</a><br>
+          Tel: 981-193-4689
+            
+        </div>
+        <div id="footer2">
+           <a href="https://www.youtube.com/"> <img src="youtube.webp" alt=""></a>
+           <a href="https://www.facebook.com/"> <img src="f.webp" alt=""></a>
+           <a href="https://www.tiktok.com/"> <img src="tiktok.webp" alt=""></a>
+           <a href="https://www.instagram.com/"> <img src="insta.webp" alt=""></a>
+           <span style="margin-left: 15%;">BUY THE LATEST ITEM TO MAKE YOUR LOOK PERFECT</span>
+    
+            <br>
+            <h3>View our site and product<span style="font-weight: lighter; padding-left:2%;"> powered and designed by Sagar</span> </h3>
+            
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

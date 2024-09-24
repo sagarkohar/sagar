@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+
+
+#get10{
+            font-size: 40px;
+            text-align: center;
+            font-weight: bolder;
+            border-radius: 5%;
+            text-shadow: 0 0 10px rgb(225, 34, 53);
+            color: rgb(17, 2, 5);
+            margin: -10px;
+
+        
+        
+        }
+
+        #get11{
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 0 0 8px rgb(18, 230, 57);
+            color: rgb(67, 14, 240);
+            margin: -1px;
+
+        }
+
+        #get12{
+            font-size: 40px;
+            margin: -10px;
+            text-align: center;
+            font-weight: bolder;
+            text-shadow: 0 0 8px rgb(225, 34, 53);
+            color: rgb(17, 2, 5);
+        }
+
+
+   
+
+      .form{
+        border-radius: 1px solid black;
+        width: 50%;
+        margin-left: 10%;
+        height: max-content;
+        padding-top: 5%;
+
+
+      }
+
+      .form2{
+        display: none;
+      }
+
+      .form1{
+        width: 60%;
+        
+      }
+
+     
+    </style>
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+  <div class="nav1">
+    Sale is on! 25% off sitewide using SARPND at checkout
+  </div>
+
+
+
+  <div class="nav2">
+    <div class="nav" style="margin-left: 20%;"><h1>T-SHIRT~SHOP</h1></div>
+      <div class="nav"  style="width: 10%;font-size: small;margin-left: 10%;"><a href="home.html">HOME</a></div>
+      <div class="nav"  style="width: 10%; letter-spacing: 2px;font-size: small;"><a href="welcome to new fashion.html">NEW</a></div>
+
+      <div class="nav"  style="width: 10%;font-size:small; "><a href="women.html">WOMEN</a></div>
+      <div class="nav"  style="width: 10%; font-size:small;"><a href="men.html">MEN</a></div>
+      <div class="nav"  style="width: 10%;font-size: x-large; "><a href="login.html">LOGIN </a></div>
+
+  </div>
+  </div>
+  <h4 style="margin-top: 3%;"></h4><br><br><br><br><br><br><br><br>
+  <p id="get10"class="animate__animated animate__bounceInLeft">JOIN US</p><p id="get11" class="animate__animated animate__bounceInUp">TO HAVE</p><p id="get12"class="animate__animated animate__bounceInRight"> FASHIONABLE LIFE</p>
+
+    <br><br>
+    <div class="main_div">
+      
+      <div class="scroll_img">
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="image.jpg" style="width:100%">
+          </div>
+
+
+          <div class="mySlides fade">
+            <img src="gh1.png" style="width:100%">
+          </div>
+
+
+          <div class="mySlides fade">
+            <img src="bh1.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="gh2.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="gh2.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="bh3.png" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="w7.webp" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="w10.webp" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="w9.webp" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="m12.webp" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="m10 (2).webp" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="w12.webp" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="m9 (2).webp" style="width:100%">
+          </div>
+
+        
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+      </div>
+
+      <div class="form">
+        <form action="" class="form1" method="get" onsubmit="return formvalidatin1()">
+            <br>
+            <h1 style="color: white; text-align: center;">Login</h1>
+      
+            <table>
+                <ul>
+                    <li><input type="" placeholder=" userId" name="" id="userId"></li>
+                    <div class="err_message" id="email_err"></div>
+      
+                    <li><input type="password" placeholder="password" name="" id="password"></li>
+                    <div class="err_message" id="password_err"></div>
+      
+                    <input type="submit" value="Login" name="" style="background-color: #97f0e7; width: 25%;cursor: pointer; padding: 1%; margin-top:-4%; border-radius: 15%; margin-bottom: 8%;">
+                    <input type="button" value="Sign up" name="" style="background-color: #97f0e7; width: 25%;cursor: pointer; padding: 1%; margin-top:-4%; border-radius: 15%; margin-bottom: 8%;" id="signing">
+                </ul>
+            </table>
+        </form>
+      
+        <form action="" class="form2" method="get" onsubmit="return formvalidatin()">
+            <br>
+            <h1 style="color: white; text-align: center;">Registration</h1>
+      
+            <table>
+                <ul>
+                    <li><input type="text" placeholder="Full name" name="" id="name"></li>
+                    <div class="err_message" id="name_err"></div>
+      
+                    <li><input type="number" placeholder="Mobile number" name="" id="number"></li>
+                    <div class="err_message" id="contact_err"></div>
+      
+                    <li><input type="" placeholder="Email" name="" id="email"></li>
+                    <div class="err_message" id="email_err1"></div>
+      
+                    <li><input type="password" placeholder="Create password" name="" id="password1"></li>
+                    <div class="err_message" id="password_err1"></div>
+      
+                    <li><input type="password" placeholder="Confirm password" name="" id="confirm_password1"></li>
+                    <div class="err_message" id="confirm_err1"></div>
+      
+                    <input type="submit" value="Sign up" name="" style="background-color: #97f0e7; width: 25%;cursor: pointer; padding: 1%; margin-top:-4%; border-radius: 15%; margin-bottom: 8%;">
+                    <br>
+                    <div style="font-size: larger; color: white; margin-left: 50%; margin-top: -15%; margin-bottom: 8%;" id="backToLogin">Back To login</div>
+                </ul>
+            </table>
+        </form>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script>
+        $(document).ready(function () {
+            $("#signing").click(function () {
+                $(".form2").show();
+                $(".form1").hide();
+            });
+      
+            $("#backToLogin").click(function () {
+                $(".form2").hide();
+                $(".form1").show();
+            });
+        });
+
+   
+  
+      </script>
+      
+       </div>
+
+
+
+    </div>
+
+   
+    <div style="display: flex; margin-bottom: -7px;">
+
+      <div id="footer1">
+         <span style="font-size: x-large; font-weight: bolder;">T-SHOP</span><br>
+        <a href="https://mail.google.com"> tshop18@gmail.com</a><br>
+        Tel: 981-193-4689
+          
+      </div>
+      <div id="footer2">
+         <a href="https://www.youtube.com/"> <img src="youtube.webp" alt=""></a>
+         <a href="https://www.facebook.com/"> <img src="f.webp" alt=""></a>
+         <a href="https://www.tiktok.com/"> <img src="tiktok.webp" alt=""></a>
+         <a href="https://www.instagram.com/"> <img src="insta.webp" alt=""></a>
+         <span style="margin-left: 15%;">BUY THE LATEST ITEM TO MAKE YOUR LOOK PERFECT</span>
+  
+          <br>
+          <h3>View our site and product<span style="font-weight: lighter; padding-left:2%;"> powered and designed by Sagar</span> </h3>
+          
+      </div>
+  </div>
+</body>
+</html>
+
+<script>
+  function formvalidatin1()
+  {
+      username=document.getElementById("userId").value;
+      password=document.getElementById("password").value;
+
+      var em = /^[\w\.]+@([\w]+\.)+[\w]{2,4}$/;
+
+
+    if(username.match(em))
+    {
+    
+      document.getElementById("email_err").innerHTML="";
+    }
+    else
+    {
+      document.getElementById("email_err").innerHTML="not valid format of email";
+      document.getElementById("email_err").style.color="red";
+      document.getElementById("email_err").style.paddingRight="4%";
+      document.getElementById("email_err").style.fontSize="15px"
+      return false;
+      }
+
+
+      var pwd= /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+
+
+    if(password.match(pwd))
+    {
+      document.getElementById("password_err").innerHTML="";
+
+
+
+    }
+    else{
+      document.getElementById("password_err").innerHTML="include atleast a upper case and special symbol";
+      document.getElementById("password_err").style.color="red";
+      document.getElementById("password_err").style.paddingRight="4%";
+      document.getElementById("password_err").style.fontSize="15px"
+      return false;
+      
+    }
+
+      }
+
+
+      
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 1000); // Change image every 2 seconds
+  }
+
+</script>
